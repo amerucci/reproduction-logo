@@ -1,0 +1,72 @@
+@font-face {
+    font-family:'HelveticaNeueLT Std Med Cn';
+    src: url('../fontie-package/HelveticaNeueLTStd-MdCn.eot');
+    src: url('../fontie-package/HelveticaNeueLTStd-MdCn.eot?#iefix') format('embedded-opentype'),
+        url('../fontie-package/HelveticaNeueLTStd-MdCn.woff2') format('woff2'),
+        url('../fontie-package/HelveticaNeueLTStd-MdCn.woff') format('woff'),
+        url('../fontie-package/HelveticaNeueLTStd-MdCn.svg#HelveticaNeueLTStd-MdCn') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: condensed;
+    unicode-range: U+0020-00FE;
+}
+
+html{
+    font-size:14px;
+}
+
+body{
+  font-family:'HelveticaNeueLT Std Med Cn';
+  text-transform:uppercase;
+
+}
+
+
+.logo{
+    width:auto; margin:auto;
+    
+}
+
+.ac {
+
+    float: left;
+ 
+}
+
+.line01 {
+    border-bottom: 3px solid #000;
+  
+}
+
+.acs:before {content: "<";float: left;/* display: inline; */font-size: 6rem;margin-top: -15px;margin-right: 8px;}
+.acs:after {content: ">";float: left;/* display: inline; */font-size: 6rem;margin-top: -15px;margin-left: 8px;}
+
+
+.code{
+  background:#d31f43;
+  color:#fff;
+  padding-left: 8px;
+  padding-right: 8px;
+  margin-left: 11px;
+}
+.clear{
+  clear:both;
+}
+.acs{
+
+  float:left;
+  font-size:5rem;}
+
+
+.school{
+    font-family: 'Roboto', sans-serif;
+    font-size: 3rem;
+    letter-spacing: 1.1em;
+    margin-right: -1.1em;
+    }
+
+
+    .line {
+        border-bottom: 2px solid #000;
+        margin-bottom: 10px;
+    }
